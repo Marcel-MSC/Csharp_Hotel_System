@@ -1,2 +1,3 @@
-# Csharp_Hotel_System
-A system to manager a hotel rooms, reservations and clients.
+Csharp Hotel System
+A system to manage a hotel rooms, reservations and clients.
+Still in progress.
