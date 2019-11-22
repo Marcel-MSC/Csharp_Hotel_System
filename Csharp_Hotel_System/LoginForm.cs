@@ -20,7 +20,7 @@ namespace Csharp_Hotel_System
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
-            CONNECT conn = new CONNECT();
+            Connect conn = new Connect();
             DataTable table = new DataTable();
             MySqlDataAdapter adapter = new MySqlDataAdapter();
             MySqlCommand command = new MySqlCommand();
@@ -40,7 +40,7 @@ namespace Csharp_Hotel_System
             {
                 // Show the Main Form
                 this.Hide();
-                Main_Form mform = new Main_Form();
+                MainForm mform = new MainForm();
                 mform.Show();
             }
             else{

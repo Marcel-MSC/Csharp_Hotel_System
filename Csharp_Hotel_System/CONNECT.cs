@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MySql.Data.MySqlClient;
+﻿using MySql.Data.MySqlClient;
 using System.Data;
 
 namespace Csharp_Hotel_System
@@ -12,31 +7,31 @@ namespace Csharp_Hotel_System
      * first you need to download and install mysql connector and add it to your project
      * download link - https://dev.mysql.com/downloads/connector/net/
      */
-    class CONNECT
+    class Connect
     {
-        private MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=;database=Csharp_Hotel_DB");
+        private readonly MySqlConnection Connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=;database=Csharp_Hotel_DB");
 
         // Create a function to return our connection
         public MySqlConnection GetConnection()
         {
-            return connection;
+            return Connection;
         }
 
         // Create a function to open the connection
         public void openConnection()
         {
-            if(connection.State == ConnectionState.Closed)
+            if(Connection.State == ConnectionState.Closed)
             {
-                connection.Open();
+                Connection.Open();
             }
         }
 
         // Create a function to close the connection
         public void closeConnection()
         {
-            if (connection.State == ConnectionState.Open)
+            if (Connection.State == ConnectionState.Open)
             {
-                connection.Close();
+                Connection.Close();
             }
         }
 

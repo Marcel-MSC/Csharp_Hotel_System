@@ -15,7 +15,7 @@ C:\Users\marcelo.carramanhos\source\repos\Csharp_Hotel_System\Csharp_Hotel_Syste
 C:\Users\marcelo.carramanhos\source\repos\Csharp_Hotel_System\Csharp_Hotel_System\bin\Debug\MySql.Data.xml
 C:\Users\marcelo.carramanhos\source\repos\Csharp_Hotel_System\Csharp_Hotel_System\bin\Debug\Renci.SshNet.xml
 C:\Users\marcelo.carramanhos\source\repos\Csharp_Hotel_System\Csharp_Hotel_System\obj\Debug\Csharp_Hotel_System.csproj.CopyComplete
-C:\Users\marcelo.carramanhos\source\repos\Csharp_Hotel_System\Csharp_Hotel_System\obj\Debug\Csharp_Hotel_System.Main_Form.resources
 C:\Users\marcelo.carramanhos\source\repos\Csharp_Hotel_System\Csharp_Hotel_System\obj\Debug\Csharp_Hotel_System.ManageClientsForm.resources
 C:\Users\marcelo.carramanhos\source\repos\Csharp_Hotel_System\Csharp_Hotel_System\obj\Debug\Csharp_Hotel_System.ManageReservationForm.resources
 C:\Users\marcelo.carramanhos\source\repos\Csharp_Hotel_System\Csharp_Hotel_System\obj\Debug\Csharp_Hotel_System.ManageRoomsForm.resources
+C:\Users\marcelo.carramanhos\source\repos\Csharp_Hotel_System\Csharp_Hotel_System\obj\Debug\Csharp_Hotel_System.MainForm.resources

@@ -1,6 +1,6 @@
 ﻿namespace Csharp_Hotel_System
 {
-    partial class Main_Form
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -53,21 +53,21 @@
             this.manageClientsToolStripMenuItem.Name = "manageClientsToolStripMenuItem";
             this.manageClientsToolStripMenuItem.Size = new System.Drawing.Size(101, 20);
             this.manageClientsToolStripMenuItem.Text = "Manage Clients";
-            this.manageClientsToolStripMenuItem.Click += new System.EventHandler(this.manageClientsToolStripMenuItem_Click);
+            this.manageClientsToolStripMenuItem.Click += new System.EventHandler(this.ManageClientsToolStripMenuItem_Click);
             // 
             // manageReservationToolStripMenuItem
             // 
             this.manageReservationToolStripMenuItem.Name = "manageReservationToolStripMenuItem";
             this.manageReservationToolStripMenuItem.Size = new System.Drawing.Size(126, 20);
             this.manageReservationToolStripMenuItem.Text = "Manage Reservation";
-            this.manageReservationToolStripMenuItem.Click += new System.EventHandler(this.manageReservationToolStripMenuItem_Click);
+            this.manageReservationToolStripMenuItem.Click += new System.EventHandler(this.ManageReservationToolStripMenuItem_Click);
             // 
             // manageRoomsToolStripMenuItem
             // 
             this.manageRoomsToolStripMenuItem.Name = "manageRoomsToolStripMenuItem";
             this.manageRoomsToolStripMenuItem.Size = new System.Drawing.Size(102, 20);
             this.manageRoomsToolStripMenuItem.Text = "Manage Rooms";
-            this.manageRoomsToolStripMenuItem.Click += new System.EventHandler(this.manageRoomsToolStripMenuItem_Click);
+            this.manageRoomsToolStripMenuItem.Click += new System.EventHandler(this.ManageRoomsToolStripMenuItem_Click);
             // 
             // Main_Form
             // 
@@ -82,7 +82,7 @@
             this.Name = "Main_Form";
             this.Text = "Main_Form";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Main_Form_FormClosing);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainFormClosing);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
