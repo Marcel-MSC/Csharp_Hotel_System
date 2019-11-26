@@ -18,8 +18,6 @@ namespace Csharp_Hotel_System
             dataGridView1.DataSource = client.getClients();
         }
 
-
-
         private void ButtonAddClient_Click(object sender, EventArgs e)
         {
             String fname = textBoxFirstName.Text;
